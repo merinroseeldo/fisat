@@ -4,37 +4,32 @@
     
 }
 
-
+body {
+    overflow-x: hidden;
+  }
+  
 .hello{
     font-size:40px;
     color: aliceblue;
     width: 26%;
+    margin-top: 50px;
 }
 
 
 .name{
     font-size:50px;
     color:#fa5252;
-    
-   
 
 }
 
 .parent{
-    
     padding: 155px;
-    
     background-color: black;
-    
-    
-   
-    
+    height: 377px;
 }
-
 .list{
     font-size:25px;
     color: aliceblue;
-    
     width: 50%;
     margin-top: 20px;
 }
@@ -48,9 +43,9 @@
 .icon {
     color: aliceblue;
     font-size: 20px;
-    margin-top: 160px;
-   display: flex;
-   align-items: center;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
     justify-content: center;
     text-align: center;
     justify-content: space-evenly;
@@ -62,10 +57,10 @@
     font-size: 20px;
     display: flex;
     align-items: center;
-     justify-content: center;
-     text-align: center;
-     justify-content: space-evenly;
-     margin-top: 50px;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 .content{
     color: #fa5252;
@@ -90,6 +85,12 @@
     font-size: 30px;
 
 }
+.content3{
+    color: #fa5252;
+    margin-left: 80px;
+    font-size: 40px;
+    margin-top: px;
+}
 
 .ic{
     padding: 60px;
@@ -100,4 +101,12 @@
     font-size: 20px;
     margin-left: 300px;
     line-height: 2.0;
+}
+
+.border{
+    border: outset;
+    border-radius: 10px;
+    border-color: #fa5252;
+    padding: 10px;
+    margin-top: 50px;
 }
