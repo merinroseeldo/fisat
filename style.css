@@ -1,13 +1,9 @@
-body{
-    background-image: url(./images/kk.jpg);
-
-    background-repeat:no-repeat;
-    background-position: center;
-
-    background-size: cover;
-    height: 100vh;
-   
+.mainbg{
+    background-color: #060606f5;
+    margin: -50px;
+    
 }
+
 
 .hello{
     font-size:40px;
@@ -18,28 +14,29 @@ body{
 
 .name{
     font-size:50px;
-    color:azure;
-    margin-left: 180px;
-    width: 50px;
+    color:#fa5252;
+    
+   
+
 }
 
 .parent{
     
-    padding: 100px;
-    margin-left: 90px;
-    border:double;
-    border-radius: 30px;
-    margin-top: 50px;
-    border-color: blanchedalmond;
-    margin-right: 90px;
+    padding: 155px;
+    
+    background-color: black;
+    
+    
+   
     
 }
 
 .list{
     font-size:25px;
-    color: cornsilk;
-    margin-left: 50px;
+    color: aliceblue;
+    
     width: 50%;
+    margin-top: 20px;
 }
 
 .pers{
@@ -48,10 +45,59 @@ body{
     margin-top: -20px;
 }
 
-.icon{
-    color: antiquewhite;
-    display: flex;
-    justify-content:space-between;
+.icon {
+    color: aliceblue;
     font-size: 20px;
     margin-top: 160px;
+   display: flex;
+   align-items: center;
+    justify-content: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.icon2{
+    color: aliceblue;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+     justify-content: center;
+     text-align: center;
+     justify-content: space-evenly;
+     margin-top: 50px;
+}
+.content{
+    color: #fa5252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px; 
+    margin-top: 30px;
+    
+}
+
+.content1{
+    color: #fa5252;
+    margin-left: 90px;
+    font-size: 30px;
+
+}
+.content2{
+    color: #fa5252;
+    margin-left: 90px;
+    font-size: 30px;
+
+}
+
+.ic{
+    padding: 60px;
+}
+
+.edu{
+    color: aliceblue;
+    font-size: 20px;
+    margin-left: 300px;
+    line-height: 2.0;
 }
