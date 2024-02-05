@@ -1,0 +1,57 @@
+body{
+    background-image: url(./images/kk.jpg);
+
+    background-repeat:no-repeat;
+    background-position: center;
+
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.hello{
+    font-size:40px;
+    color: aliceblue;
+    width: 26%;
+}
+
+
+.name{
+    font-size:50px;
+    color:azure;
+    margin-left: 180px;
+    width: 50px;
+}
+
+.parent{
+    
+    padding: 100px;
+    margin-left: 90px;
+    border:double;
+    border-radius: 30px;
+    margin-top: 50px;
+    border-color: blanchedalmond;
+    margin-right: 90px;
+    
+}
+
+.list{
+    font-size:25px;
+    color: cornsilk;
+    margin-left: 50px;
+    width: 50%;
+}
+
+.pers{
+    float:right;
+    height: 250px;
+    margin-top: -20px;
+}
+
+.icon{
+    color: antiquewhite;
+    display: flex;
+    justify-content:space-between;
+    font-size: 20px;
+    margin-top: 160px;
+}
